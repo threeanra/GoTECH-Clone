@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: poppins;
+}
+
+/* NAVBAR */
+.search{
+    background: transparent;
+    border-radius: 5px;
+    border: solid 1px #a174db;
+    display: inline-block;
+    height: 40px;
+ 
+}
+
+
+.pointer {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(184,130,255,1);
+}
+
+.sch{
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    height: 38px;
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    font-size: 400;
+
+}
+
+
+.btn-sch {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 40px;
+    margin: auto;
+    color: rgba(184,130,255,1);
+}
+
+/* Utility */
+.tombol {
+    background: rgb(102,117,210);
+    background: linear-gradient(90deg, rgba(102,117,210,1) 0%,
+     rgba(184,130,255,1) 70%, 
+     rgba(203,164,255,1) 100%);
+     color: white;
+     font-size: 14px;
+     height: 40px;
+     width: 130px;
+     border-color: rgba(184,130,255,1) ;
+}
+
+.tombol-card{
+    color: rgb(147, 219, 75);
+    font-size: 14px;
+}
+
+.btn2{
+    border: solid 2px;
+    border-radius: 5px;
+    background: transparent;
+    color:  rgba(184,130,255,1);
+    border-color: rgba(184,130,255,1) ;
+}
+
+.btn2:hover{
+    background: rgb(102,117,210);
+    background: linear-gradient(90deg, rgba(102,117,210,1) 0%,
+     rgba(184,130,255,1) 70%, 
+     rgba(203,164,255,1) 100%);
+     color: white;
+     font-size: 14px;
+     height: 40px;
+     width: 130px;
+}
+
+.sc1{
+    background-image: url(assets/images/Group\ 2186.png);
+    background-size: cover;
+    background-position: center;
+    height: 100px
+
+}
+
+.img-gallery {
+    width: 100%;
+    height: 100%;
+}
+
+.sc5 .gambar-panjang{
+    height: 370px;
+    
+}
+
+.gambar-pendek{
+    height: auto;
+}
+
+.card{
+    box-shadow: 0 10px 15px rgba(68, 88, 144, 0.1);
+    padding: 15px;
+}
+
+
+
+
+
+
+
+/* SECTION 7 */
+.section-7 {
+    background: rgb(235, 242, 253);
+    background-image: url("assets/images/Group\ 2186.png");
+}
+
+.title-d {
+    font-size: 36px;
+    font-weight: 400 !important;
+}
+
+.border-a {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+    box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+}
+
+.border-input {
+    border-width: 2px;
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.border-input-1 {
+    border-width: 2px;
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.border-label {
+    color: black;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.m-p {
+    margin-bottom: 0!important;
+    padding-bottom: 0 !important;
+}
+
+.m-p2 {
+    margin-top: 0!important;
+    padding-top: 0 !important;
+}
+
+.btn-outline-primary {
+    border: none;
+    background: rgb(102,117,210);
+    background: linear-gradient(90deg, rgba(102,117,210,1) 0%, rgba(184,130,255,1) 90%, rgba(203,164,255,1) 100%);
+    color: white;
+    font-size: 12px; 
+    font-weight: 400;
+}
+
+.btn-outline-primary:hover {
+    border: 2px solid #a174db;
+    background: white;
+    font-size: 12px;
+    font-weight: 600;
+    color: #a174db;
+    padding-bottom: 6px !important;
+    padding-top: 6px !important ;
+}
+
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+ 
+    .paragrap{
+        padding-left: 300px; padding-right: 300px; margin-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Mobile Ver */
+@media (max-width:576px){   
+
+.sosmed-icon{
+    width: 45px;
+}
+
+.sc5{
+    display: flex;
+    flex-direction: column;
+}
+
+.sc5 .gambar-panjang{
+    height: 200px;
+}
+
+.gambar-kedua{
+    margin-top: 10px;
+}
+
+.video iframe{
+    width: 300px;
+    height: 300px;
+}
+
+.tombol, .tombol2{
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.sc6 .card{
+    margin: auto;
+    margin-top: 20px
+}
+
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .sc5{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sc5 .gambar-panjang{
+        height: 440px;
+    }
+    
+    .gambar-kedua{
+        margin-top: 10px;
+    }
+    
+    .video iframe{
+        width:500px;
+        height: 300px;
+    }
+
+    .sc6 .card{
+        margin: auto;
+       
+    }
+    
+    
+    
+}

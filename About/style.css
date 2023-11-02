@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: poppins;
+}
+
+/* NAVBAR */
+.search{
+    background: transparent;
+    border-radius: 5px;
+    border: solid 1px #a174db;
+    display: inline-block;
+    height: 40px;
+}
+
+.pointer {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(184,130,255,1);
+}
+
+.sch{
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    height: 38px;
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    font-size: 400;
+
+}
+
+
+.btn-sch {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 40px;
+    margin: auto;
+    color: rgba(184,130,255,1);
+}
+
+/* Utility */
+.tombol {
+    background: rgb(102,117,210);
+    background: linear-gradient(90deg, rgba(102,117,210,1) 0%,
+     rgba(184,130,255,1) 70%, 
+     rgba(203,164,255,1) 100%);
+     color: white;
+     font-size: 14px;
+     height: 40px;
+     width: 130px;
+     border-color: rgba(184,130,255,1) ;
+}
+
+.tombol-card{
+    color: rgb(147, 219, 75);
+    font-size: 14px;
+}
+
+.sc1{
+    background-image: url(assets/images/Group\ 2186.png);
+    background-size: cover;
+    background-position: center;
+    height: 100px
+
+}
+
+
+/* SECTION 2 */
+.sc2 {
+    margin-top: 90px;
+    text-align: center;
+}
+
+/* SECTION 4 */
+.sc4-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    width: 25%;
+    background: #fff;
+    box-shadow: 0 10px 15px rgba(68, 88, 144, 0.1);
+    margin-bottom: 50px;
+    margin: 10px;
+    padding: 20px;
+    border: none;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+
+/* GALLERY */
+.img-gallery {
+    width: 100%;
+    height: 100%;
+}
+
+
+.first-img{
+    width: 100%;
+    height: 65%;
+}
+
+.last-img{
+    width: 100%;
+    height: 225px;
+}
+
+/* SECTION 7 */
+.section-7 {
+    background: rgb(235, 242, 253);
+    background-image: url("assets/images/Group\ 2186.png");
+}
+
+.title-d {
+    font-size: 36px;
+    font-weight: 400 !important;
+}
+
+.border-a {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+    box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+}
+
+.border-input {
+    border-width: 2px;
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.border-input-1 {
+    border-width: 2px;
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.border-label {
+    color: black;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.m-p {
+    margin-bottom: 0!important;
+    padding-bottom: 0 !important;
+}
+
+.m-p2 {
+    margin-top: 0!important;
+    padding-top: 0 !important;
+}
+
+.btn-outline-primary {
+    border: none;
+    background: rgb(102,117,210);
+    background: linear-gradient(90deg, rgba(102,117,210,1) 0%, rgba(184,130,255,1) 90%, rgba(203,164,255,1) 100%);
+    color: white;
+    font-size: 12px; 
+    font-weight: 400;
+}
+
+.btn-outline-primary:hover {
+    border: 2px solid #a174db;
+    background: white;
+    font-size: 12px;
+    font-weight: 600;
+    color: #a174db;
+    padding-bottom: 6px !important;
+    padding-top: 6px !important ;
+}
+
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+ 
+    .sc2 {
+        text-align: left;
+    }
+
+    .sc2 .title{
+        margin-top: 60px;
+    }
+    
+    /* SECTION 3 */
+     .sc2 .title2{
+         margin-top: 80px;
+     }
+
+}
+
+
+
+
+
+
+
+
+
+/* Mobile Ver */
+@media screen and (max-width:768px){
+
+    .sc4-card .card{
+        width: 75%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    /* CARD */
+    .card{
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+
+    .sosmed-icon{
+        width: 45px;
+    }
+
+    .last-img{
+        width: 100%;
+        height: 40%;
+    }
+
+    .sc-gallery{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sc-gallery img{
+        padding: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .sc2 img{
+        width: 60%;
+    }
+    
+    .sc4-card .card {
+        width: 40%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    /* CARD */
+    .card{
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    
+}

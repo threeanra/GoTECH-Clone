@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: poppins;
+}
+
+/* NAVBAR */
+.search{
+    background: transparent;
+    border-radius: 5px;
+    border: solid 1px #a174db;
+    display: inline-block;
+    height: 40px;
+ 
+}
+
+.sch{
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    height: 38px;
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    font-size: 400;
+
+}
+
+
+.btn-sch {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 40px;
+    margin: auto;
+    color: rgba(184,130,255,1);
+}
+
+/* Utility */
+.tombol {
+    background: rgb(102,117,210);
+    background: linear-gradient(90deg, rgba(102,117,210,1) 0%,
+     rgba(184,130,255,1) 70%, 
+     rgba(203,164,255,1) 100%);
+     color: white;
+     font-size: 14px;
+     height: 40px;
+     width: 130px;
+     border-color: rgba(184,130,255,1) ;
+}
+
+.tombol-card{
+    color: rgb(147, 219, 75);
+    font-size: 14px;
+}
+
+
+.pointer {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(184,130,255,1);
+}
+
+/* SECTION 1*/
+.sc1{
+    background-image: url(assets/img/bg.png);
+    background-size: 95%;
+}
+
+.sc1 .btn2{
+    border: solid 2px;
+    border-radius: 5px;
+    background: transparent;
+    color:  rgba(184,130,255,1);
+    border-color: rgba(184,130,255,1) ;
+}
+
+.sc1 .btn2:hover{
+    background: rgb(102,117,210);
+    background: linear-gradient(90deg, rgba(102,117,210,1) 0%,
+     rgba(184,130,255,1) 70%, 
+     rgba(203,164,255,1) 100%);
+     color: white;
+     font-size: 14px;
+     height: 40px;
+     width: 130px;
+}
+
+.sc1 img{
+    width: 700px;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+/* BACKGROUND */
+.bg-gradient{
+    height: 85px;
+    width: 100%;
+    background: linear-gradient(to top, rgb(226, 174, 248) 0%,
+     rgb(202, 170, 245) 70%, 
+     rgb(255, 255, 255) 100%);
+     margin-top: -110px;
+     opacity: 90%;
+}
+
+/* SECTION 2 */
+.sc2 {
+    margin-top: 90px;
+    text-align: center;
+    background-color: white;
+
+}
+
+.sc2 .title{
+    margin-top: -50px;
+}
+
+/* SECTION 4 */
+.sc4-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    width: 25%;
+    background: #fff;
+    box-shadow: 0 10px 15px rgba(68, 88, 144, 0.1);
+    margin-bottom: 50px;
+    margin: 10px;
+    padding: 20px;
+    border: none;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 13px;
+    margin-top: -20px;
+}
+
+/* SECTION 5 */
+.sc5-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sc5-card .card{
+    width: 23%;
+    height: 23%;
+}
+
+
+
+/* SECTION 7 */
+.section-7 {
+    background: rgb(235, 242, 253);
+    background-image: url("assets/img/Group\ 2186.png");
+}
+
+.title-d {
+    font-size: 36px;
+    font-weight: 400 !important;
+}
+
+.border-a {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+    box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+}
+
+.border-input {
+    border-width: 2px;
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.border-input-1 {
+    border-width: 2px;
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.border-label {
+    color: black;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.m-p {
+    margin-bottom: 0!important;
+    padding-bottom: 0 !important;
+}
+
+.m-p2 {
+    margin-top: 0!important;
+    padding-top: 0 !important;
+}
+
+.btn-outline-primary {
+    border: none;
+    background: rgb(102,117,210);
+    background: linear-gradient(90deg, rgba(102,117,210,1) 0%, rgba(184,130,255,1) 90%, rgba(203,164,255,1) 100%);
+    color: white;
+    font-size: 12px; 
+    font-weight: 400;
+}
+
+.btn-outline-primary:hover {
+    border: 2px solid #a174db;
+    background: white;
+    font-size: 12px;
+    font-weight: 600;
+    color: #a174db;
+    padding-bottom: 6px !important;
+    padding-top: 6px !important ;
+}
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+
+/* BG GRADIENT */
+.bg-gradient{
+    margin-top: -125px;
+}
+
+/* SECTION 2 */
+.sc2{
+    text-align: left;
+}
+
+.sc2 .title{
+    margin-top: 60px;
+}
+
+/* SECTION 3 */
+ .sc2 .title2{
+     margin-top: 80px;
+ }
+ 
+ /* SECTION 5 */
+ .sc5-card .card2 {
+    margin-top: -15px;
+}
+
+/* SECTION 6 */
+.carousel {
+	margin: 20px auto;
+    padding: 0 300px;
+    padding-bottom: 50px;
+}
+.carousel-item {
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+    padding: 30px 0 10px;
+    font-size: 20px;
+}
+
+.carousel .position{
+    font-size: 13px;
+}
+
+.carousel .carousel-control{
+    top: 5px;
+    background: none;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.carousel-control i {
+    font-size: 20px;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0 50px;
+ 
+}
+
+}
+
+
+/* Mobile Ver */
+@media screen and (max-width:768px){
+
+    .sc4-card .card{
+        width: 75%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    /* CARD */
+    .card{
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+
+
+    /* SECTION 1 */
+    .sc1 h1{
+        font-size: 25px;
+    }
+
+    /* SECTION 2 */
+    .sc2 h3{
+        font-size: 23px;
+    }
+
+    .sc2 .title2 .title3{
+        font-size: 23px;
+    }
+    
+    /* SECTION 4 */
+    .sc4 h3{
+        font-size: 23px;
+    }
+
+    /* SECTION 5 */
+    .sc5-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .sc5-card .card{
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        margin-top: auto;
+        margin-bottom: 20px;
+    }
+
+    .sc5 h3{
+        font-size: 23px;
+    }
+
+    /* SECTION 6 */
+   .sc6{
+       margin-bottom: 100px;
+    }
+
+   .carousel {
+    padding: 10px 50px;
+    }
+
+   .carousel .item .img-box {
+        width: 40%;
+        height: 40%;
+        margin: auto;
+    }
+
+    .carousel .img-box img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 50%;
+    }
+
+    .carousel-control i {
+        font-size: 20px;
+        display: inline-block;
+        color: rgba(0, 0, 0, 0.8);
+        margin: 0 20px;
+    }
+
+    .carousel .testimonial, .overview {
+        padding: 30px 0 5px;
+        text-align: center;
+    }
+
+    .carousel .overview{
+        font-size: 15px;
+    }
+    
+    .carousel .position{
+        text-align: center;
+        font-size: 13px;
+    }   
+
+    .sosmed-icon{
+        width: 45px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .sc4-card .card {
+        width: 40%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    /* CARD */
+    .card{
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    
+.sc5-card .card{
+    width: 30%;
+}
+       
+.sc5-card .card2 {
+    margin-top: -15px;
+}
+
+.sc6 .img-box img{
+    width: 135px;
+    height: 135px;
+    margin:auto;
+}
+
+.sc2 img{
+    width: 60%;
+}
+
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: poppins;
+}
+
+/* NAVBAR */
+.search{
+    background: transparent;
+    border-radius: 5px;
+    border: solid 1px #a174db;
+    display: inline-block;
+    height: 40px;
+}
+
+.pointer {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(184,130,255,1);
+}
+
+.sch{
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    height: 38px;
+    width: 150px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    font-size: 400;
+
+}
+
+
+.btn-sch {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 40px;
+    margin: auto;
+    color: rgba(184,130,255,1);
+}
+
+/* Utility */
+.tombol {
+    background: rgb(102,117,210);
+    background: linear-gradient(90deg, rgba(102,117,210,1) 0%,
+     rgba(184,130,255,1) 70%, 
+     rgba(203,164,255,1) 100%);
+     color: white;
+     font-size: 14px;
+     height: 40px;
+     width: 130px;
+     border-color: rgba(184,130,255,1) ;
+}
+
+.tombol-card{
+    color: rgb(147, 219, 75);
+    font-size: 14px;
+}
+
+.sc1{
+    background-image: url(assets/images/Group\ 2186.png);
+    background-size: cover;
+    background-position: center;
+    height: 100px
+
+}
+
+/* SECTION 5 */
+
+.card{
+    width: 25%;
+    background: #fff;
+    box-shadow: 0 10px 15px rgba(68, 88, 144, 0.1);
+    margin-bottom: 50px;
+    margin: 10px;
+    padding: 20px;
+    border: none;
+}
+
+.sc5-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sc5-card .card{
+    width: 23%;
+    height: 23%;
+}
+
+
+/* SECTION 7 */
+.section-7 {
+    background: rgb(235, 242, 253);
+    background-image: url("assets/images/Group\ 2186.png");
+}
+
+.title-d {
+    font-size: 36px;
+    font-weight: 400 !important;
+}
+
+.border-a {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+    box-shadow: 0px 0px 97px -10px rgba(0,0,0,0.12);
+}
+
+.border-input {
+    border-width: 2px;
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.border-input-1 {
+    border-width: 2px;
+    color: black;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.border-label {
+    color: black;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.m-p {
+    margin-bottom: 0!important;
+    padding-bottom: 0 !important;
+}
+
+.m-p2 {
+    margin-top: 0!important;
+    padding-top: 0 !important;
+}
+
+.btn-outline-primary {
+    border: none;
+    background: rgb(102,117,210);
+    background: linear-gradient(90deg, rgba(102,117,210,1) 0%, rgba(184,130,255,1) 90%, rgba(203,164,255,1) 100%);
+    color: white;
+    font-size: 12px; 
+    font-weight: 400;
+}
+
+.btn-outline-primary:hover {
+    border: 2px solid #a174db;
+    background: white;
+    font-size: 12px;
+    font-weight: 600;
+    color: #a174db;
+    padding-bottom: 6px !important;
+    padding-top: 6px !important ;
+}
+
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+
+ /* SECTION 5 */
+ .sc5-card .card2 {
+    margin-top: -15px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* Mobile Ver */
+@media screen and (max-width:768px){
+   /* SECTION 5 */
+   .sc5-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sc5-card .card{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.sosmed-icon{
+    width: 45px;
+}
+
+}
